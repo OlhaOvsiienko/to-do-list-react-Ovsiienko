@@ -1,0 +1,55 @@
+.taskField {
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 5px;
+    border: 2px solid grey;
+    display: flex;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box; 
+  }
+  
+  .leftContent {
+    flex: 1;
+    margin: 5px;
+  }
+  
+  .rightContent {
+    margin-left: 10px;
+  }
+  
+  .buttonRemove {
+    color: white;
+    background-color: red;
+    margin: 5px;
+    border-radius: 3px;
+  }
+
+  .buttonRemove:hover {
+    filter: brightness(150%);
+  }
+
+  .buttonRemove:active {
+    filter: brightness(80%);
+  }
+  
+  @media (max-width: 600px) {
+    .taskField {
+      margin: 10px; 
+      padding: 10px; 
+      font-size: 14px; 
+    }
+  
+    .leftContent {
+      margin: 0; 
+    }
+  
+    .rightContent {
+      margin: 0; 
+    }
+  
+    .buttonRemove {
+      margin: 0; 
+      font-size: 12px; 
+    }
+  }
+  

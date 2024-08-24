@@ -1,0 +1,38 @@
+.field {
+    border: 2px solid #808080;
+    background-color: #edebeb;
+    padding: 10px;
+    text-align: left;
+    display: flex; 
+    max-width: 600px;  
+    flex-direction: column;   
+    margin: 10px auto;
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buttonAdd {
+    background-color: rgb(25, 152, 25);
+    color: white;
+    border-radius: 3px;
+}
+
+.buttonAdd:hover {
+    filter: brightness(150%);
+    color: black;
+}
+
+.buttonAdd:active {
+    filter: brightness(80%);
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .field {
+      min-width: 300px; 
+    }
+}
