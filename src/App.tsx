@@ -1,5 +1,5 @@
 import './App.css'
-import TaskList from './components/task-list/TaskList'
+import TaskList from './components/task-list/TaskList.tsx'
 
 function App() {
   return (
@@ -9,4 +9,6 @@ function App() {
   )
 }
 
-export default App
+export default App  
+
+
